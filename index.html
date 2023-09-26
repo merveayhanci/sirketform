@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İş Yeri Anketi</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+  
+<section id= 'header'>
+    <div class="bg-light text-center py-4">
+
+    <div class="container">
+        <h2 class="text-info display-4 my-4">EVDEN ÇALIŞMA ANKETİ</h2>
+         </div>
+    </div>
+</section>
+<div class="result d-none py-4 bg-succes text-center">
+  <div class="container lead">
+        <p><span class="text-danger display-4 p-3">0%</span> Ofiste çalışmayı tercih ediyorsun.</p>
+     </div>  
+  </div>
+
+
+<section id= 'questions'>
+  <div class="bg-secondary py-3 ">
+    <div class="container">
+        <form class="question-form text-light">
+          <div class="my-4">
+             <p>1.Evden çalışırken teknik sorunlar yaşıyorum.</p>
+               <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1"  value="E" checked>
+                    <label class="form-check-label" >
+                      Evet
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1"  value="H">
+                    <label class="form-check-label">
+                      Hayır
+                      <br>
+                    </label>
+                  </div>
+                </div>
+                <div class="my-4"></div>
+                    <p>2.Evden çalışırken iş arkadaşlarımla iletişim kurmakta zorlanıyorum.</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q2"  value="E" checked>
+                        <label class="form-check-label" >
+                          Evet
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q2"  value="H">
+                        <label class="form-check-label">
+                          Hayır
+                          <br>
+                        </label>
+                      </div>
+                      <div class="my-4">
+                      <p>3.Evde çalışırken daha fazla odaklanabiliyorum.</p>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q3"  value="E" checked>
+                        <label class="form-check-label" >
+                          Evet
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q3" value="H">
+                        <label class="form-check-label" >
+                          Hayır
+                          <br>
+                        </label>
+                      </div>
+                      <div class="my-4">
+                      <p>4. Ulaşımda sorun yaşıyorum. </p>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q4" value="E" checked>
+                        <label class="form-check-label" >
+                          Evet
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q4" value="H">
+                        <label class="form-check-label" >
+                          Hayır 
+                        </label>
+                      </div>
+            </div>
+            <div class="text-center">
+              <input type="submit" class="btn btn-warning">
+            </div>
+        </form>
+     
+    </div>
+</div>
+</section>
+
+    <script src="dosya.js"></script>
+</body>
+</html>
